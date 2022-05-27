@@ -2,6 +2,8 @@
 https://juejin.cn/post/6986452378018906149  # 参考
 https://zhuanlan.zhihu.com/p/78382376   # 理论
 '''
+import random
+
 import numpy as np
 from matplotlib import pyplot as plt
 from sklearn.cluster import AgglomerativeClustering
@@ -9,6 +11,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 
 
 data = np.array([[1, 2], [2, 3], [-3, 3], [-2, -1], [5, -1]])
+X = []
 
 '''sklearn 实现层次聚类'''
 # 画点

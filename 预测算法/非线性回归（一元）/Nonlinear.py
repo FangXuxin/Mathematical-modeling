@@ -9,6 +9,7 @@ from matplotlib import pyplot as plt
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
+# 数据部分
 x = np.array(range(30))
 temp_y = 10 + 2*x + x**2 + x**3
 y = temp_y + 1500*np.random.normal(size=30)  #添加噪声
